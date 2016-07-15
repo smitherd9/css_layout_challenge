@@ -1,0 +1,153 @@
+* {
+	box-sizing: border-box;
+}
+
+
+/* Header */
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;	
+	border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    
+    
+}
+
+
+
+
+/* Navigation */
+
+nav {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+
+	
+        
+}
+
+.nav-link {
+	font-size: 18px;
+	padding: 0 18px;
+	
+
+}
+
+
+li {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+
+}
+
+li a {
+	color: #550088;
+	text-decoration: none;
+
+	
+}
+
+.logo {
+	display: inline-block;
+	font-weight: 100;
+	border-radius: 100%;
+
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+}
+
+
+
+.search {
+	margin-bottom: 140px;
+	position: relative;
+	top: 100px;
+	
+}
+
+
+.search input {
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	line-height: 30px;
+	height: 30px;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	padding: 0 5px 0 8px;
+	width: 400px;
+}
+
+.nav-item {
+	margin-top: 130px;
+}
+
+.search-button {
+	float: right;
+}
+
+
+.pages {
+	display: inline-block;
+	font-size: 0;
+	margin-bottom: 30px;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+}
+
+.pages-button {
+	font-size: 16px;
+	display: inline-block;
+	padding: 8px 15px;
+	border-radius: 3px;
+}
+
+
+.pages-display {
+	font-size: 16px;
+	padding: 8px 25px;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+
+
+/* Search Results List */
+
+.results {
+	display: block;
+}
+
+
+.fa-star:hover {
+	color: yellow;
+}
+
+
+.listing-date, .listing-location {
+	color: #999;
+}
+
+
+.listing-title {
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+
